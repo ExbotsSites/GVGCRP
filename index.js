@@ -2,7 +2,7 @@ const express = require("express");
 const fetch = require("node-fetch");
 const app = express();
 
-const REPL_URL = "https://TUO-BOT.replit.dev"; // <--- metti qui il tuo link .replit.dev
+const REPL_URL = "https://7d1f2a55-4761-4ab7-8f85-d4f4f5c4ddf3-00-2t71xt0gt7eeh.riker.replit.dev/"; // <--- metti qui il tuo link .replit.dev
 
 // rotta base
 app.get("/", (req, res) => {
